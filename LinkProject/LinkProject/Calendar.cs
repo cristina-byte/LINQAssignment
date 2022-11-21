@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data;
 
 namespace LinkProject
 {
@@ -38,25 +32,14 @@ namespace LinkProject
             }
         }
 
-        public List<Meeting> GetMeetingsOn(DateTime date)
-        {
-            return _meetings.Where(m =>m.Date.Year==date.Year && m.Date.Month==date.Month && m.Date.Day==date.Day).OrderBy(m=>m.Date).ToList<Meeting>();
-        }
+        public List<Meeting> GetMeetingsOn(DateTime date)=> _meetings.Where(m => m.Date.Year == date.Year && 
+        m.Date.Month == date.Month && m.Date.Day == date.Day).OrderBy(m => m.Date).ToList<Meeting>();
 
-        public bool AllOnline()
-        {
-            return _meetings.All(m => m.Address.Equals("online"));
-        }
+        public bool AllOnline()=> _meetings.All(m => m.Address.Equals("online"));
 
-        public bool AnyOffline()
-        {
-            return _meetings.Any(m => !m.Address.Equals("online"));
-        }
+        public bool AnyOffline()=> _meetings.Any(m => !m.Address.Equals("online"));
 
-        public int GetMeetingsNumberOrganizedBy(int userId)
-        {
-            return _meetings.Count(m => m.OrganizerId==userId);
-        }
+        public int GetMeetingsNumberOrganizedBy(int userId)=> _meetings.Count(m => m.OrganizerId == userId);
 
         public void Reschedule(TimeSpan interval, DateTime date)
         {
@@ -68,10 +51,7 @@ namespace LinkProject
             }).ToList<Meeting>();
         }
 
-        public Meeting GetLastMeetingOn(DateTime date)
-        {
-            return _meetings.Where(m => m.Date.Year == date.Year && m.Date.Month == date.Month && m.Date.Day == date.Day)
+        public Meeting GetLastMeetingOn(DateTime date)=> _meetings.Where(m => m.Date.Year == date.Year && m.Date.Month == date.Month && m.Date.Day == date.Day)
                 .OrderBy(m => m.Date).Last();
-        }
     }
 }

@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LinkProject
+﻿namespace LinkProject
 {
     internal class Meeting 
     {
@@ -32,7 +25,6 @@ namespace LinkProject
 
         public override int GetHashCode()
         {
-            //return Title.GetHashCode();
             return new {Title,Date,OrganizerId}.GetHashCode();
         }
 

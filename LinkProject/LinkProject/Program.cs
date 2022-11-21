@@ -1,5 +1,4 @@
 ﻿
-
 namespace LinkProject
 {
     internal class Program

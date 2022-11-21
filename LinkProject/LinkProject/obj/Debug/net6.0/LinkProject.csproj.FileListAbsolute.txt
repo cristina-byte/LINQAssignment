@@ -1,0 +1,15 @@
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\bin\Debug\net6.0\LinkProject.exe
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\bin\Debug\net6.0\LinkProject.deps.json
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\bin\Debug\net6.0\LinkProject.runtimeconfig.json
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\bin\Debug\net6.0\LinkProject.dll
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\bin\Debug\net6.0\LinkProject.pdb
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\obj\Debug\net6.0\LinkProject.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\obj\Debug\net6.0\LinkProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\obj\Debug\net6.0\LinkProject.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\obj\Debug\net6.0\LinkProject.AssemblyInfo.cs
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\obj\Debug\net6.0\LinkProject.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\obj\Debug\net6.0\LinkProject.dll
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\obj\Debug\net6.0\refint\LinkProject.dll
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\obj\Debug\net6.0\LinkProject.pdb
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\obj\Debug\net6.0\LinkProject.genruntimeconfig.cache
+C:\Users\user\OneDrive\Desktop\Amdaris Internship\MyRepository\LINQAssignment\LinkProject\LinkProject\obj\Debug\net6.0\ref\LinkProject.dll
